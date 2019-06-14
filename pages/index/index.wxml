@@ -1,0 +1,11 @@
+<!--pages/bluetooth/bluetooth.wxml-->
+<view class='title'>可连接设备</view>
+<view class='dev-list'>
+  <view class='dev-item'  wx:for="{{dev_list}}" wx:key="index" data-index="{{index}}" catchtap="linkDeviceHand">
+    <view class='md info'>名称: {{item.name}}</view>
+    <view class='sm info'>deviceId: {{item.deviceId}}</view>
+    <view class='sm info'>信号强度: {{item.RSSI}}dBm</view>
+  </view>
+</view>
+
+<button class='bottom-btn' type='primary' catchtap='searchDev'>搜索蓝牙设备</button>

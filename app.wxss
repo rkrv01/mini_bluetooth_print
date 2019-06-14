@@ -1,0 +1,49 @@
+/**app.wxss**/
+@import '/style/iconfont.wxss';
+page{
+  background: #f3f3f3;
+  color: #383838;
+}
+.container {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  /* padding: 200rpx 0; */
+  box-sizing: border-box;
+  font-size: 28rpx;
+}
+/* 工具容器 */
+.tools-box{
+  width:95%;
+  box-sizing: border-box;
+  padding: 20rpx;
+  padding-bottom: 0;
+  background: #fff;
+  margin: 20rpx auto 0 auto;
+  border-radius: 12rpx;
+}
+.tools-box .tools-title{
+  margin-bottom:20rpx;
+}
+.tools-box .tools-inner{
+  display: flex;
+  flex-wrap: wrap;
+}
+.tools-box  .tools-item{
+  width: 25%;
+  margin-bottom: 30rpx;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  }
+.tools-box .tool-icon{
+  color: #666;
+}
+.tools-box .tool-label{
+  color: #666;
+  margin-top: 20rpx;
+  font-size: 24rpx;
+}

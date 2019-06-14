@@ -1,0 +1,7 @@
+{
+  "name": "wx_demo1",
+  "version": "1.0.0",
+  "dependencies": {
+    "text-encoding": "^0.7.0"
+  }
+}

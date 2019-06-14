@@ -1,0 +1,11 @@
+<!--pages/bluetooth_work/bluetooth_work.wxml-->
+<view class='title'>当前设备</view>
+<view class='dev-item'>
+  <view class='md info'>名称: {{device.name}}</view>
+  <view class='sm info'>deviceId: {{device.deviceId}}</view>
+  <view class='sm info'>信号强度: {{device.RSSI}}dBm</view>
+</view>
+<view class='title'>二维码</view>
+<canvas class="qr-cvs" style="width: 200px; height:200px;" canvas-id="myQrcode"></canvas>
+
+<button class='bottom-btn' type='primary' catchtap='sendHand'>发送</button>

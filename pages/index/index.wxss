@@ -1,0 +1,29 @@
+/* pages/bluetooth/bluetooth.wxss */
+.dev-list{
+  display: flex;
+  flex-direction: column;
+}
+.title{
+  font-size: 28rpx;
+  padding: 10rpx;
+}
+ .dev-item{
+  width: 95%;
+  background: #fff;
+  margin: 0rpx auto;
+  margin-bottom: 20rpx;
+  border-radius: 12rpx;
+  padding: 10rpx;
+  font-size: 28rpx;
+}
+.dev-list .dev-item .sm{
+  font-size: 24rpx;
+  color: #666;
+}
+.bottom-btn{
+  position: fixed;
+  bottom: 20rpx;
+  width: 90%;
+  left: 50%;
+  transform: translateX(-50%);
+}

@@ -1,0 +1,5 @@
+/* pages/bluetooth_work/bluetooth_work.wxss */
+@import '/pages/index/index.wxss';
+.qr-cvs{
+  margin: 0 auto;
+}
