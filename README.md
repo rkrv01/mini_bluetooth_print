@@ -20,7 +20,7 @@
 3. 通过蓝牙打印机打印指定格式的内容,在这里学习了对ESC/POS命令的使用 [https://github.com/benioZhang/miniprogram-bluetoothprinter](https://github.com/benioZhang/miniprogram-bluetoothprinter)
 4. [ESC(POS)打印控制命令](http://www.xmjjdz.com/downloads/manual/cn/ESC(POS)%E6%89%93%E5%8D%B0%E6%8E%A7%E5%88%B6%E5%91%BD%E4%BB%A4.pdf)
 5. 打印二维码资料参考，写的很详细 [https://blog.csdn.net/cfujiC/article/details/86013122#commentsedit](https://blog.csdn.net/cfujiC/article/details/86013122#commentsedit)
-6. 小程序通过canvas绘制二维码插件[weapp.qrcode.js](weapp.qrcode.js)
+6. 小程序通过canvas绘制二维码插件[weapp.qrcode.js](https://github.com/yingye/weapp-qrcode)
 7. 打印光栅位图的参考,二维码就是以这种形式打印出来的,对我来说有点深奥,需要多读几遍[https://www.jianshu.com/p/dd6ca0054298](https://www.jianshu.com/p/dd6ca0054298)
 
 
