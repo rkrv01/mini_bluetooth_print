@@ -36,4 +36,4 @@
      十进制码    29  118  48  m  xL  xH  yL  yH  d1...dk
 
     其中 xL, xH, yL, yH需要根据要打印的位图宽高计算而出，否则会出现乱码或模糊的情况,参考[https://www.jianshu.com/p/dd6ca0054298](https://www.jianshu.com/p/dd6ca0054298)
-  
+6. 监听搜索到的设备在iOS需要做去重处理,由于之前是用安卓设备写的，没有留意到这个问题,现补充

@@ -16,12 +16,14 @@
 	"compileType": "miniprogram",
 	"libVersion": "2.0.4",
 	"appid": "wxd5ae8c59d19bfee1",
-	"projectname": "mini-demo1",
+	"projectname": "ssss",
 	"cloudfunctionTemplateRoot": "",
 	"debugOptions": {
 		"hidedInDevtools": []
 	},
 	"scripts": {},
+	"simulatorType": "wechat",
+	"simulatorPluginLibVersion": {},
 	"condition": {
 		"search": {
 			"current": -1,
